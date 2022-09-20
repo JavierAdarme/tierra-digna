@@ -1,0 +1,37 @@
+/* Fuentes */
+@font-face {
+    font-family: 'Cormorant Upright';
+    src: url('fonts/CormorantUpright-Light.ttf');
+}
+
+
+header{
+    box-shadow: 1.5px 1.5px 4px #b3b3b3;  /*sombra*/
+}
+
+body{
+    font-family: 'Cormorant Upright', serif;
+    
+}
+
+.noticias {
+    background-image: url('img/hojas.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 12rem 2rem;
+}
+
+.fila{
+    display: flex;
+    
+}
+
+.accion {
+    background-image: url('img/manos-planta.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*Con este se queda la imagen quieta y se ve de arriba a abajo*/
+    padding: 12rem 2rem;
+}
