@@ -2,11 +2,14 @@
 @font-face {
     font-family: 'Cormorant Upright';
     src: url('fonts/CormorantUpright-Light.ttf');
+    
 }
 
 
 header{
     box-shadow: 1.5px 1.5px 4px #b3b3b3;  /*sombra*/
+    position: fixed;
+    width: 100%;
 }
 
 body{
@@ -19,7 +22,7 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 12rem 2rem;
+    padding: 15rem 2rem;
 }
 
 .fila{
