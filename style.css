@@ -23,15 +23,22 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 6rem 2rem;
 }
 
 .cajita1 {
     background-color: rgba(255,220,0,255);
     margin-top: -5rem;
-    padding: 1rem 3rem;
-    
+    margin-left: 75rem;
+    padding: 1rem 3rem; 
 }
+
+@media (max-width: 768px) {
+    .cajita1 {
+        margin-top: 2rem;
+        margin-left: 0rem;
+    }
+  }
+
 
 .fila{
     display: flex;
@@ -45,7 +52,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed; /*Con este se queda la imagen quieta y se ve de arriba a abajo*/
-    padding: 12rem 2rem;
 }
 
 .publicacion {
@@ -55,11 +61,71 @@ body{
     background-position: center;
     object-fit: cover;
     background-repeat: no-repeat;
-    padding: 12rem 2rem;
+    padding: 12rem 3rem;
+    
 }
+.main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
 .col-50{
     width: 50%;
     background-color: rgb(22, 13, 0);
     padding: 3rem 3rem;
 }
+
+.icons-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 1rem;
+  }
+  
+  .icons-list-item {
+    list-style: none;
+  }
+  
+  .icons-list-item-link {
+    border-radius: 9999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f5f9;
+    border: transparent;
+    width: 6rem;
+    height: 6rem;
+    transition: background-color 0.2s ease-in;
+  }
+  
+  .icons-list-item-link:hover {
+    background-color: #e2e8f0;
+  }
+  
+  .icons-list-item-icon {
+    width: 3.6rem;
+    height: 3.6rem;
+    color: #475569;
+  }
+  
+  .icons-content {
+    position: relative;
+    margin-top: 3rem;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .icons-content-item {
+    width: 100%;
+    position: absolute;
+    transition: opacity 0.2s ease-out;
+  }
+  
+  .hidden {
+    opacity: 0;
+  }
+  

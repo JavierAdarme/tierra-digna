@@ -1,156 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href= "styles.css">
-    <link rel="stylesheet" href= "style.css">
-    <link rel="stylesheet" href= "node_modules/bootstrap/dist/css/bootstrap.min.css">
-    
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <script type="module" src="script.js"></script>
+
+  <title>Document</title>
 </head>
+
 <body>
-    <!-- Menu principal -->
-    <header>
-      <nav class="navbar navbar-expand-lg  bg-light">
-          <div class="container">
-
-              
-              
-              <!-- Icono de menu -->
-            <a class="navbar-brand" href="#">
-                <img src="img/logo.png" alt="" width="80" height="80" class="me-3">
-                
-            </a>
+  <!-- Menu principal -->
+  <header>
+    <nav class="navbar navbar-expand-lg  bg-light">
+      <div class="container">
 
 
-            <!-- Boton Responsive -->
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+        <!-- Icono de menu -->
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="" width="80" height="80" class="me-3">
+
+        </a>
 
 
-            <!-- Cuerpo de mi menu/ enlaces -->
-            <div class="collapse navbar-collapse pb-2 pb-lg-0" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-lg-0 me-lg-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Nosotros</a>
-                </li>
+        <!-- Boton Responsive -->
 
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Noticias</a>
-                </li>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Acción</a>
-                </li>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Campañas</a>
-                </li>
-                
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Publicaciones</a>
-                </li>
+        <!-- Cuerpo de mi menu/ enlaces -->
+        <div class="collapse navbar-collapse pb-2 pb-lg-0" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-lg-0 me-lg-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nosotros</a>
+            </li>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="#">¿Cómo trabajamos?</a>
-                </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Noticias</a>
+            </li>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Ayúdanos</a>
-                </li>
-              </ul>
-            
-          
+            <li class="nav-item">
+              <a class="nav-link" href="#">Acción</a>
+            </li>
 
-            </div>
-          </div>
-        </nav>
-    </header>
-    <div class="noticias">
-      <div class="container-fluid">
-        <div class="row align-items-start py-5">
-          <div class="col-sm-10"></div>
-          <div class="col-sm-2"><h1 class="display-3 text-white align-text-bottom">Noticias</h1></div>
-          <div class="col-sm-10"></div>
-          <div class="col-sm-2"><h1 class="lead text-white">Breve descripción de la noticia</h1></div>
-        </div>
-        <div class="row align-bottom">
-          <div class="col-sm-3 "> <img src="img/Elemento pagina de TD-03.png" width="90%"> </div>
-          <div class="col-sm-9"></div>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Campañas</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Publicaciones</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">¿Cómo trabajamos?</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ayúdanos</a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
+  </header>
+  <div class="noticias">
+    <div class="container-fluid" style="padding: 10rem 2rem 0rem 2rem;">
+      <div class="row align-items-start py-5">
+        <div class="col-sm-10"></div>
+        <div class="col-sm-2">
+          <h1 class="display-3 text-white align-text-bottom">Noticias</h1>
+        </div>
+        <div class="col-sm-10"></div>
+        <div class="col-sm-2">
+          <h1 class="lead text-white">Breve descripción de la noticia</h1>
+        </div>
       </div>
-      <div class="container-fluid align-items-end">
-      <div class="col-md-8"></div>
-        <div class="col-md-4 offset-md-8 cajita1"><h4 class="text-end">...nuestro planeta nos está exigiendo una nueva
-          transformación tanto interna como externa. Así pues,
-          para los años venideros nuestro propósito seguirá
-          siendo el de defender a las comunidades de
-          Colombia frente a la injusticia e inequidad</h4></div>
-    </div>
-
-    <div class="px-4 py-5 my-4   text-center">
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">El Centro de Estudios para la Justicia Social “Tierra Digna”, como
-          organización en pro del ambiente y los derechos humanos fue
-          fundada desde el año 2010, bajo la misión de defender el territorio,
-          la vida y la cultura de las comunidades.</p>
+      <div class="align-bottom">
+        <div class="col-sm-3 "> <img src="img/Elemento pagina de TD-03.png" width="90%"> </div>
+        <div class="col-sm-9"></div>
       </div>
     </div>
-
-    <div class="accion">
-
+  </div>
+  <div class="container-fluid">
+    <div class="col-md-4 cajita1">
+      <h4 class="text-end lead">...nuestro planeta nos está exigiendo una nueva
+        transformación tanto interna como externa. Así pues,
+        para los años venideros nuestro propósito seguirá
+        siendo el de defender a las comunidades de
+        Colombia frente a la injusticia e inequidad</h4>
     </div>
+  </div>
 
-    <div class="container marketing py-5">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-
-        <div class="col-sm-2"><img src="img/Elemento pagina de TD-08.png" class="img-fluid" width="55%" >
-      </div><!-- /.col-lg-4 -->
-
-        
-        <div class="col-sm-2"><img src="img/Elemento pagina de TD-04.png" class="img-fluid"  width="55%">
-
-        </div><!-- /.col-lg-4 -->
-
-        
-        <div class="col-sm-2"><img src="img/Elemento pagina de TD-05.png" class="img-fluid"  width="55%">
-        </div><!-- /.col-lg-4 -->
-
-        
-        <div class="col-sm-2"><img src="img/Elemento pagina de TD-06.png" class="img-fluid"  width="55%">
-        </div><!-- /.col-lg-4 -->
-
-        
-        <div class="col-sm-2"><img src="img/Elemento pagina de TD-07.png" class="img-fluid"  width="55%">
-        </div><!-- /.col-lg-4 -->
-
-        
-        <div class="col-sm-2"><img src="img/Elemento pagina de TD-08.png" class="img-fluid"  width="55%">
-        </div><!-- /.col-lg-4 -->
-
-      </div><!-- /.row -->
-
-
-
-
+  <div class="px-4 py-5 my-4   text-center">
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">El Centro de Estudios para la Justicia Social “Tierra Digna”, como
+        organización en pro del ambiente y los derechos humanos fue
+        fundada desde el año 2010, bajo la misión de defender el territorio,
+        la vida y la cultura de las comunidades.</p>
     </div>
+  </div>
 
-    <div class="anuncio">
-      <div class="col-50">
-        <p class="lead text-white"> Nos hemos reiventado, iniciando una decada mas de servicio a las comunidades mas indefensas de este pais.</p>
+  <div class="accion">
+    <div class="align-bottom mx-3" style="padding: 16rem 0rem 2rem 1rem">
+      <h4 class="text-white lead">Líneas</h4>
+      <h1 class="text-white">DE ACCIÓN</h1>
+    </div>
+  </div>
+
+  <div class="container main py-5">
+    <!-- Three columns of text below the carousel -->
+    <ul class="icons-list">
+      <li class="icons-list-item">
+        <a class="icons-list-item-link" data-target-item="1"><img src="img/Elemento pagina de TD-08.png"
+            class="img-fluid"></a>
+      </li>
+
+      <li class="icons-list-item">
+        <a class="icons-list-item-link" data-target-item="2"><img src="img/Elemento pagina de TD-04.png"
+            class="img-fluid"></a>
+      </li>
+
+      <li class="icons-list-item">
+        <a class="icons-list-item-link" data-target-item="3"><img src="img/Elemento pagina de TD-05.png"
+            class="img-fluid"></a>
+      </li>
+
+      <li class="icons-list-item">
+        <a class="icons-list-item-link" data-target-item="4"><img src="img/Elemento pagina de TD-06.png"
+            class="img-fluid"></a>
+
+      </li>
+
+      <li class="icons-list-item">
+        <a class="icons-list-item-link" data-target-item="5"><img src="img/Elemento pagina de TD-07.png"
+            class="img-fluid"></a>
+      </li>
+
+      <li class="icons-list-item">
+        <a class="icons-list-item-link" data-target-item="6"><img src="img/Elemento pagina de TD-08.png"
+            class="img-fluid"></a>
+
+      </li>
+    </ul>
+    <section class="icons-content">
+      <div id="1" class="icons-content-item">
+        <h2>Cambio climatico</h2>
+        <p>Perspectiva ancestral de los bosques y los elementales.</p>
       </div>
-      
+      <div id="2" class="icons-content-item hidden">
+        <h2>Hat item</h2>
+        <p>Lorem ipsum dolore hola como están todos.</p>
+      </div>
+      <div id="3" class="icons-content-item hidden">
+        <h2>Money item</h2>
+        <p>Dinero gratis: https://www.youtube.com/watch?v=dQw4w9WgXcQ</p>
+      </div>
+      <div id="4" class="icons-content-item hidden">
+        <h2>Javi papasito</h2>
+        <p>Comeme el cipote</p>
+      </div>
+      <div id="5" class="icons-content-item hidden">
+        <h2>Pipe está triste</h2>
+        <p>Hay que invitarlo a polita</p>
+      </div>
+      <div id="6" class="icons-content-item hidden">
+        <h2>Juan Camilo</h2>
+        <p>De chimba no nos mostró el mampano</p>
+      </div>
+    </section>
+  </div>
+
+
+
+
+
+  <div class="anuncio py-5">
+    <div class="col-50">
+      <p class="lead text-white"> Nos hemos reiventado, iniciando una decada mas de servicio a las comunidades mas
+        indefensas de este pais.</p>
     </div>
+  </div>
 
 
 
@@ -159,9 +199,10 @@
 
 
 
-    <!--Seccion Publicaciones -->
-    <div class="publicacion"></div>
+  <!--Seccion Publicaciones -->
+  <div class="publicacion"></div>
 
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>
