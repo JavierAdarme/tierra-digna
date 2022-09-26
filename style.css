@@ -2,76 +2,84 @@
 @font-face {
     font-family: 'Cormorant Upright';
     src: url('fonts/CormorantUpright-Light.ttf');
-    
+
 }
 
 
-header{
-    box-shadow: 1.5px 1.5px 4px #b3b3b3;  /*sombra*/
+header {
+    box-shadow: 1.5px 1.5px 4px #b3b3b3;
+    /*sombra*/
     position: fixed;
     width: 100%;
 }
 
-body{
+body {
     font-family: 'Cormorant Upright', serif;
-    
+
 }
 
 .noticias {
     background: rgb(0, 0, 0);
-    background-image:linear-gradient(95deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%), url('img/hojas.jpg');
+    background-image: linear-gradient(95deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 50%), url('img/hojas.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .cajita1 {
-    background-color: rgba(255,220,0,255);
+    background-color: rgba(255, 220, 0, 255);
     margin-top: -5rem;
     margin-left: 75rem;
-    padding: 1rem 3rem; 
+    padding: 1rem 3rem;
 }
-
+@media (max-width: 1366px) {
+    .cajita1 {
+        margin-top: -5rem;
+        margin-left: 50rem;
+    }
+}
 @media (max-width: 768px) {
     .cajita1 {
         margin-top: 2rem;
         margin-left: 0rem;
     }
-  }
+}
 
 
-.fila{
+.fila {
     display: flex;
-    
+
 }
 
 .accion {
-    background: rgb(33,136,209);
-    background-image:linear-gradient(95deg, rgba(31,126,199,0) 19%, rgba(31,126,199,0.3519782913165266) 50%, rgba(222,175,12,0.80015756302521) 100%), url('img/manos-planta.jpg');
+    background: rgb(33, 136, 209);
+    background-image: linear-gradient(95deg, rgba(31, 126, 199, 0) 19%, rgba(31, 126, 199, 0.3519782913165266) 50%, rgba(222, 175, 12, 0.80015756302521) 100%), url('img/manos-planta.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed; /*Con este se queda la imagen quieta y se ve de arriba a abajo*/
+    background-attachment: fixed;
+    /*Con este se queda la imagen quieta y se ve de arriba a abajo*/
 }
 
 .publicacion {
-    background: rgb(33,136,209);
-    background-image:linear-gradient(95deg, rgba(222, 177, 12, 0.514) 5%, rgba(31,126,199,0.3519782913165266)  100%), url('img/beautiful-shot-of-cayo-cangrejo-providencia-in-colombia-with-cloudy-blue-sky2.jpg');
+    background: rgb(33, 136, 209);
+    background-image: linear-gradient(95deg, rgba(222, 177, 12, 0.514) 5%, rgba(31, 126, 199, 0.3519782913165266) 100%), url('img/beautiful-shot-of-cayo-cangrejo-providencia-in-colombia-with-cloudy-blue-sky2.jpg');
     background-size: cover;
     background-position: center;
     object-fit: cover;
     background-repeat: no-repeat;
     padding: 12rem 3rem;
-    
+
 }
+
 .main {
     padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
 
-.col-50{
+.col-50 {
     width: 50%;
     background-color: rgb(22, 13, 0);
     padding: 3rem 3rem;
@@ -82,13 +90,13 @@ body{
     flex-wrap: wrap;
     column-gap: 2rem;
     row-gap: 1rem;
-  }
-  
-  .icons-list-item {
+}
+
+.icons-list-item {
     list-style: none;
-  }
-  
-  .icons-list-item-link {
+}
+
+.icons-list-item-link {
     border-radius: 9999px;
     display: flex;
     justify-content: center;
@@ -98,34 +106,33 @@ body{
     width: 6rem;
     height: 6rem;
     transition: background-color 0.2s ease-in;
-  }
-  
-  .icons-list-item-link:hover {
+}
+
+.icons-list-item-link:hover {
     background-color: #e2e8f0;
-  }
-  
-  .icons-list-item-icon {
+}
+
+.icons-list-item-icon {
     width: 3.6rem;
     height: 3.6rem;
     color: #475569;
-  }
-  
-  .icons-content {
+}
+
+.icons-content {
     position: relative;
     margin-top: 3rem;
     text-align: center;
     display: flex;
     width: 100%;
     justify-content: center;
-  }
-  
-  .icons-content-item {
+}
+
+.icons-content-item {
     width: 100%;
     position: absolute;
     transition: opacity 0.2s ease-out;
-  }
-  
-  .hidden {
+}
+
+.hidden {
     opacity: 0;
-  }
-  
+}
