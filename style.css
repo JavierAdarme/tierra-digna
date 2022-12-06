@@ -150,3 +150,21 @@ body {
 .hidden {
     opacity: 0;
 }
+
+.mapa {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+}
+
+.mapa path{
+    fill: rgb(255, 255, 255);
+    stroke: rgb(148, 148, 148);
+    stroke-width: 1px;
+}
+
+.mapa :hover{
+    fill: rgba(255, 220, 0, 255);
+}
