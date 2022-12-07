@@ -1,7 +1,7 @@
 /* Fuentes */
 @font-face {
-    font-family: 'Cormorant Upright';
-    src: url('fonts/CormorantUpright-Light.ttf');
+    font-family: 'Monserrat';
+    src: url('../tierra-digna/fonts/Montserrat-Bold.ttf');
 
 }
 
@@ -14,7 +14,7 @@ header {
 }
 
 body {
-    font-family: 'Cormorant Upright', serif;
+    font-family: 'Monserrat', sans-serif;
 
 }
 
@@ -167,4 +167,28 @@ body {
 
 .mapa :hover{
     fill: rgba(255, 220, 0, 255);
+}
+
+.conta{
+    margin: 0;
+}
+
+.contis{
+    border-bottom: 1px solid #475569;
+    width: 40%;
+}
+.col-dere{
+    width: 50%;
+    padding: 0.5rem 1rem;
+}
+
+.col-izq{
+    width: 50%;
+    padding: 0.5rem 1rem;
+}
+
+#pr{
+    display: block;
+    margin-top: -90px;
+    padding-bottom: 90px;
 }
