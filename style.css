@@ -1,21 +1,42 @@
 /* Fuentes */
-@font-face {
-    font-family: 'Monserrat';
-    src: url('../tierra-digna/fonts/Montserrat-Bold.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@700&family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
-}
-
-
-header {
+header{
     box-shadow: 1.5px 1.5px 4px #b3b3b3;
     /*sombra*/
-    position: fixed;
+    position: fixed !important;
     width: 100%;
 }
 
 body {
-    font-family: 'Monserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
 
+li{
+    font-family: 'Cormorant Upright', serif;
+    font-size:larger;
+}
+
+p{
+    font-family: 'Cormorant Upright', serif;  
+}
+h4{
+    font-family: 'Cormorant Upright', serif;  
+}
+h3{
+    font-family: 'Cormorant Upright', serif;  
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+h5{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .noticias {
@@ -102,7 +123,7 @@ body {
 .icons-list {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 2rem;
+    column-gap: 6rem;
     row-gap: 1rem;
 }
 
